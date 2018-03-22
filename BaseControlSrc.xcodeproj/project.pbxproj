@@ -10,6 +10,7 @@
 		0ADDA33A2FADBAB6CE67DB88 /* libPods-BaseControlSrc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2778DA1BFB037C2E7EAF25 /* libPods-BaseControlSrc.a */; };
 		EA5FD414205742AC005925E2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FD413205742AC005925E2 /* RootViewController.m */; };
 		EA5FD4162057454F005925E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5FD4152057454E005925E2 /* Main.storyboard */; };
+		EA5FD41D20584BF1005925E2 /* SimulatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FD41B20584BF1005925E2 /* SimulatorViewController.m */; };
 		EAC5E99C2056F93A00169577 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E99B2056F93A00169577 /* AppDelegate.m */; };
 		EAC5E9A42056F93A00169577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E9A32056F93A00169577 /* Assets.xcassets */; };
 		EAC5E9A72056F93A00169577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E9A52056F93A00169577 /* LaunchScreen.storyboard */; };
@@ -36,6 +37,8 @@
 		EA5FD412205742AC005925E2 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		EA5FD413205742AC005925E2 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		EA5FD4152057454E005925E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EA5FD41B20584BF1005925E2 /* SimulatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimulatorViewController.m; sourceTree = "<group>"; };
+		EA5FD41C20584BF1005925E2 /* SimulatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulatorViewController.h; sourceTree = "<group>"; };
 		EAC5E9972056F93A00169577 /* BaseControlSrc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseControlSrc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC5E99A2056F93A00169577 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EAC5E99B2056F93A00169577 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 		EAC5E9992056F93A00169577 /* BaseControlSrc */ = {
 			isa = PBXGroup;
 			children = (
+				EA5FD41C20584BF1005925E2 /* SimulatorViewController.h */,
+				EA5FD41B20584BF1005925E2 /* SimulatorViewController.m */,
 				EA5FD4152057454E005925E2 /* Main.storyboard */,
 				EA5FD412205742AC005925E2 /* RootViewController.h */,
 				EA5FD413205742AC005925E2 /* RootViewController.m */,
@@ -295,6 +300,7 @@
 			files = (
 				EAC5E9AA2056F93A00169577 /* main.m in Sources */,
 				EAC5E9C6205728BD00169577 /* DemoUtility.m in Sources */,
+				EA5FD41D20584BF1005925E2 /* SimulatorViewController.m in Sources */,
 				EA5FD414205742AC005925E2 /* RootViewController.m in Sources */,
 				EAC5E99C2056F93A00169577 /* AppDelegate.m in Sources */,
 			);

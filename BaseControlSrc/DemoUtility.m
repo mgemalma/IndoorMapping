@@ -42,6 +42,22 @@
         return nil;
     }
 
+    // Return DJI Remote Controller Instance
+    +(DJIRemoteController*) fetchRemoteController {
+        // Nil if No DJI Product
+        if (![DJISDKManager product]) {
+            return nil;
+        }
+        
+        // Return Remote Controller Instance
+        if ([[DJISDKManager product] isKindOfClass:[DJIAircraft class]]) {
+            return ((DJIAircraft*)[DJISDKManager product]).remoteController;
+        }
+        
+        // Nil if Not of Aircraft Type
+        return nil;
+    }
+
     // Used to Give Alert - Depricate
     +(void)showAlertViewWithTitle:(NSString *)title message:(NSString *)message cancelAlertAction:(UIAlertAction*)cancelAlert defaultAlertAction:(UIAlertAction*)defaultAlert viewController:(UIViewController *)viewController {
         // Create Alert

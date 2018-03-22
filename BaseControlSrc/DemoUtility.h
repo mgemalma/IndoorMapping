@@ -11,6 +11,7 @@
 @class DJIAircraft;
 @class DJIGimbal;
 @class DJIFlightController;
+@class DJIRemoteController;
 
 // Define Class
 @interface DemoUtility : NSObject
@@ -18,5 +19,6 @@
     +(DJIBaseProduct*) fetchProduct;
     +(DJIAircraft*) fetchAircraft;
     +(DJIFlightController*) fetchFlightController;
+    +(DJIRemoteController*) fetchRemoteController;
     +(void)showAlertViewWithTitle:(NSString *)title message:(NSString *)message cancelAlertAction:(UIAlertAction*)cancelAlert defaultAlertAction:(UIAlertAction*)defaultAlert viewController:(UIViewController *)viewController;
 @end
