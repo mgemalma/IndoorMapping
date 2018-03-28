@@ -5,9 +5,9 @@
 #define SLEEP_T 8           //  8 s
 #define SLEEP_L 10           //  15 s
 #define SLEEP_S 0.1        //  10 Hz
-#define YAW_V   -18.0      //  60 deg/s
-#define ROL_V   0.25        //  1 m/s
-#define RUN     40      //  5000 Times
+#define YAW_V   -72.0      //  60 deg/s
+#define ROL_V   0.628318        //  1 m/s
+#define RUN     50      //  5000 Times
 
 @interface SimulatorViewController()<DJIFlightControllerDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *Status;
@@ -59,15 +59,13 @@
             // Get Flight Controller
             DJIFlightController* fcint = [DemoUtility fetchFlightController];
             
-            for(int j = 0; j < 4; j++) {
-            
-            // Loop Right
+            // Loop Circle
             for(int i = 0; i <= RUN; i++) {
                 // Set Data
                 DJIVirtualStickFlightControlData fcData = {0};
                 fcData.pitch = (float)ROL_V;
                 fcData.roll = (float)0.0;
-                fcData.yaw = (float)0.0;
+                fcData.yaw = (float)YAW_V;
                 fcData.verticalThrottle = (float)0.0;
                 
                 // Send Data
@@ -79,27 +77,6 @@
                 
                 // Sleep
                 usleep(SLEEP_S * 1000000);
-            }
-            
-            // Loop Rotate
-            for(int i = 0; i <= RUN; i++) {
-                // Set Data
-                DJIVirtualStickFlightControlData fcData = {0};
-                fcData.pitch = (float)0.0;
-                fcData.roll = (float) 0.0;
-                fcData.yaw = (float) YAW_V;
-                fcData.verticalThrottle = (float)0.0;
-                
-                // Send Data
-                self.Status.text = @"Sending Data";
-                printf("Sending Data %d\n", i);
-                if (fcint.isVirtualStickControlModeAvailable) {
-                    [fcint sendVirtualStickFlightControlData:fcData withCompletion:nil];
-                }
-                
-                // Sleep
-                usleep(SLEEP_S * 1000000);
-            }
             }
             
             // Emable Controller
