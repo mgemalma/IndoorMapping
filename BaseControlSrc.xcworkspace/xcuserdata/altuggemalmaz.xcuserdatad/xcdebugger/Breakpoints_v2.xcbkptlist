@@ -51,5 +51,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BaseControlSrc/SimulatorViewController.m"
+            timestampString = "543897965.490572"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimulatorViewController Status]"
+                  moduleName = "BaseControlSrc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/altuggemalmaz/Desktop/Research/BaseControlSrc/BaseControlSrc/SimulatorViewController.m"
+                  timestampString = "543895967.871497"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimulatorViewController setStatus:]"
+                  moduleName = "BaseControlSrc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/altuggemalmaz/Desktop/Research/BaseControlSrc/BaseControlSrc/SimulatorViewController.m"
+                  timestampString = "543895967.8765841"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

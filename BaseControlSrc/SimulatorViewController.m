@@ -2,12 +2,15 @@
 #import "DemoUtility.h"
 #import <DJISDK/DJISDK.h>
 
-#define SLEEP_T 8           //  8 s
-#define SLEEP_L 10           //  15 s
-#define SLEEP_S 0.1        //  10 Hz
-#define YAW_V   -72.0      //  60 deg/s
-#define ROL_V   0.628318        //  1 m/s
-#define RUN     50      //  5000 Times
+#define SLEEP_T     8
+#define SLEEP_L     10
+#define INTERVAL    0.1
+#define RADIUS      0.5
+#define TIME        5.0
+#define LOOPS       1.0
+#define ROL_V       ((2.0 * 3.141592 * RADIUS) / TIME)
+#define YAW_V       -(360.0 / TIME)
+#define RUN         ((TIME / INTERVAL) * LOOPS)
 
 @interface SimulatorViewController()<DJIFlightControllerDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *Status;
@@ -70,13 +73,13 @@
                 
                 // Send Data
                 self.Status.text = @"Sending Data";
-                printf("Sending Data %d\n", i);
+                printf("Sending Data RUN %d -> Roll: %f,Pitch: %f, Yaw: %f and Throt: %f\n", i, fcData.pitch, fcData.roll, fcData.yaw, fcData.verticalThrottle);
                 if (fcint.isVirtualStickControlModeAvailable) {
                     [fcint sendVirtualStickFlightControlData:fcData withCompletion:nil];
                 }
                 
                 // Sleep
-                usleep(SLEEP_S * 1000000);
+                usleep(INTERVAL * 1000000);
             }
             
             // Emable Controller
