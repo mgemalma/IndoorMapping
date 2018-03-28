@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		8nTmVeo6MOYSMHsfK4ZD+o21buc=
+		BPGHiqmEEcGe2cXtuacT//ben68=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		1GF/dG2oUkvqlLKhlwp2BznNxEs=
+		6GYeV0xd6v0KaekMog5vPm3EhD8=
 		</data>
 		<key>Frameworks/DJISDK.framework/DJIAreaCodeResource.bundle/AC_AD_signed.binary</key>
 		<data>
@@ -1052,23 +1052,23 @@
 		</data>
 		<key>Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		O3+aFm4b9K2oP77muWd+o3PZfvI=
+		+/bSsjrmqjO9fax/EZIq3zRDaEY=
 		</data>
 		<key>Main.storyboardc/Info.plist</key>
 		<data>
-		MTGCk55bIhV33hUoAh7vvi2ihFY=
+		lrEPiuRVWg164/VBXWCZau9C1rc=
 		</data>
 		<key>Main.storyboardc/UINavigationController-SZb-7Q-Eec.nib</key>
 		<data>
-		VwwJoE8DD9aHGpWjEM2b8TT4bfE=
+		nUvdbi4Fz6m+2gsCHXcN5M5q7F8=
 		</data>
 		<key>Main.storyboardc/UIViewController-du7-zH-Fvy.nib</key>
 		<data>
-		fJ1XRHD94sJlG8HhumLduYl2T98=
+		bVeyOuoD9G1PC/HsTD7a4p4Oloc=
 		</data>
 		<key>Main.storyboardc/du7-zH-Fvy-view-Shz-92-ZVH.nib</key>
 		<data>
-		oqUUlYY6dF0R3DpWWSGoDoYtf2Y=
+		VoE8mls0ylaQJ2IFIf0AOHGgf2w=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -1081,11 +1081,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8nTmVeo6MOYSMHsfK4ZD+o21buc=
+			BPGHiqmEEcGe2cXtuacT//ben68=
 			</data>
 			<key>hash2</key>
 			<data>
-			Mr9kjEKeHNM1PvwPWzLpQT0CYt05OcGABKDZJ0vch7Q=
+			LzVr3q/Mwct8al2GCgXZhCBs0kvQNGaLVR6keaQUVkE=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -1103,11 +1103,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1GF/dG2oUkvqlLKhlwp2BznNxEs=
+			6GYeV0xd6v0KaekMog5vPm3EhD8=
 			</data>
 			<key>hash2</key>
 			<data>
-			IxIFOdRfuXvw50tt/k1VC9dmlqrNjLWiFMwsz40B6EA=
+			2qvdoO6mgRcUsNV7bJL7Nlo8Zr9RoZOCW/khua8F0RM=
 			</data>
 		</dict>
 		<key>Frameworks/DJISDK.framework/DJIAreaCodeResource.bundle/AC_AD_signed.binary</key>
@@ -3923,55 +3923,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O3+aFm4b9K2oP77muWd+o3PZfvI=
+			+/bSsjrmqjO9fax/EZIq3zRDaEY=
 			</data>
 			<key>hash2</key>
 			<data>
-			etMcDk8QzrIawTFmhJsvou3sbzynFpN6rXuvIfnFiAc=
+			q8d609WqfBhedJiVdua3Px2Jx7zo7IOSdJw/aUgbgE8=
 			</data>
 		</dict>
 		<key>Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MTGCk55bIhV33hUoAh7vvi2ihFY=
+			lrEPiuRVWg164/VBXWCZau9C1rc=
 			</data>
 			<key>hash2</key>
 			<data>
-			23goXEExoudhhGkN0N3Jz3lDiAQbnlKtAoJA2lRRXbU=
+			JwgbajeSmopFC14qKgnmAFN5WxO4K7JPUhMoIBA9LSc=
 			</data>
 		</dict>
 		<key>Main.storyboardc/UINavigationController-SZb-7Q-Eec.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VwwJoE8DD9aHGpWjEM2b8TT4bfE=
+			nUvdbi4Fz6m+2gsCHXcN5M5q7F8=
 			</data>
 			<key>hash2</key>
 			<data>
-			tv8EZQS/0XYL+ykuY0zTJnBzLwHH48QKMs28+s4oARM=
+			bW0chB+IN7OZgi6E1wUdwVxIkIjh+qGDEQXAualuy6E=
 			</data>
 		</dict>
 		<key>Main.storyboardc/UIViewController-du7-zH-Fvy.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fJ1XRHD94sJlG8HhumLduYl2T98=
+			bVeyOuoD9G1PC/HsTD7a4p4Oloc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Js6x2udIs3vcmNT0qWNyZoHSBplLNuBv/bcMXjNzvHI=
+			t7aQdHSk0T/FmlOAE+bWW6r+Czh9AeCe2/UCc/NprJE=
 			</data>
 		</dict>
 		<key>Main.storyboardc/du7-zH-Fvy-view-Shz-92-ZVH.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oqUUlYY6dF0R3DpWWSGoDoYtf2Y=
+			VoE8mls0ylaQJ2IFIf0AOHGgf2w=
 			</data>
 			<key>hash2</key>
 			<data>
-			9xNdhUuD0cQVNBNmk4zRfDfytRmWb2CdvKeZe/4GhZw=
+			OIkfCM7AEojZX3duE1475jX5NE0fDR6d7DUj4VfglvE=
 			</data>
 		</dict>
 	</dict>
